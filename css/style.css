@@ -1,0 +1,146 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}
+
+body {
+	background-color: #cccccc;
+}
+
+#container {
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 1200px;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+footer {
+	margin-left: auto;
+	margin-right: auto;	
+	width: 1200px;
+	text-align: center;
+	font-size: 10px;	
+	margin-top: 10px;
+	font-family: Verdana;
+}
+
+footer a {
+	font-style: italic;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+#left-panel {
+	background-color: white;
+	float: left;
+	width: 600px;
+	margin: 0px;
+	padding: 0px;
+	border-top: 2px solid;	
+	border-left: 2px solid;	
+	border-bottom: 2px solid;	
+	min-height: 600px;	
+}
+
+.render {
+	float: left;
+	margin-top: -12px;
+}
+
+#right-panel {		
+	padding: 15px;
+	float: left;
+	width: 500px;
+	margin: 0px;
+	min-height: 570px;	
+	border-left: 2px dotted;
+	border-top: 2px solid;	
+	border-right: 2px solid;	
+	border-bottom: 2px solid;	
+	background-image:url('../img/xycoor.png');
+	background-repeat:no-repeat;
+	background-position:left bottom; 
+	background-color: white;
+}
+
+.coor {
+	width: 40px;
+}
+
+#inputs label {
+	font-weight: bolder;
+}
+
+.mat {
+	width: 60px;
+}
+
+.load {
+	width: 60px;
+}
+
+#steps {
+	clear: both;
+	background-color: #E6E6E6;
+	padding: 10px;
+}
+
+
+
+.step {
+	margin: 10px 0px 10px 0px;	
+}
+
+.current {
+	font-weight: bolder;
+	background-color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.clear {
+	clear: both;
+}
+
+#hellomessage {
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+
+#hellomessagecontainer {
+	text-align: center;
+}
+
+.removeclass {
+	line-height: 25px;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: bolder;
+	color: red;
+}
+
+.removeclass:hover {
+	color: blue;
+}
+
+.nextstep {
+	float: right;
+}
+
+#info {
+	line-height: 15px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.about {
+	margin-top: 70px;
+	line-height: 20px;
+}
+
+.about a {
+	text-decoration: none;
+}
+
+
